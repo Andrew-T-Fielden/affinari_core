@@ -1,66 +1,73 @@
-# The Affinari Method: A Transparent Framework for Contextual Alignment and Matching Across Domains
-### Academic Reference Edition — Affinari Project (v1.0)
+# The Affinari Method (Academic Reference)
+### Transparent Alignment Framework for Human-Aligned AI
 
-**Author:** Andrew Fielden  
-**Affiliation:** The Affinari Project  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17297114.svg)](https://doi.org/10.5281/zenodo.17297114)
+
+**Author:** Andrew T. Fielden  
+**Affiliation:** Affinari Project / Independent Researcher, UK  
 **Date:** October 2025  
 **License:** CC-BY-4.0 International  
-**DOI:** To be assigned (via Zenodo/GitHub release)
 
 ---
 
-## Abstract
-The **Affinari Method** defines a universal, transparent process for aligning entities—users, items, or conditions—by explicitly declaring their traits and computing similarity through interpretable, domain-agnostic metrics.  
-Unlike inference-based AI, which learns latent weights from large corpora, Affinari operates through *declared alignment*, ensuring transparency, auditability, and adaptability across domains.
+## 🧭 Abstract
+
+**Affinari** introduces a transparent, schema-driven framework for contextual alignment and doppelganger matching across any domain involving human or system preferences.  
+Rather than inferring intent through opaque machine learning, Affinari makes alignment *explicit*: each entity declares a structured set of traits (scalars, tags, and categoricals) which are compared deterministically using weighted Manhattan distance and cosine similarity.  
+
+This produces explainable “fit” scores that reveal *why* a match occurs, rather than obscuring it.  
+The method generalises across domains — from hospitality and medicine to finance and education — forming a portable foundation for interpretable, alignment-based AI systems.
 
 ---
 
-## Keywords
-Alignment AI · Explainable Systems · Human-Centric Computing · Schema Design · Contextual Matching · Doppelganger Logic
+## 🧩 Keywords
+
+alignment intelligence, explainable AI, digital twin, preference modelling, doppelganger system, schema-based AI, ethical AI, contextual matching
 
 ---
 
-## Summary of Contribution
-Affinari introduces a domain-independent alignment grammar expressed as JSON schemas of scalars, tags, and categoricals.  
-Matching is performed via deterministic functions (weighted Manhattan and cosine) yielding normalized scores with full trait-level explanations.  
-This approach creates an **interpretable alternative to probabilistic inference models**, suitable for medicine, hospitality, finance, and education.
+## 🧮 Method Summary
+
+- **Schema Layer:** Each domain defines its own JSON schema of traits (scalar, tag, categorical).  
+- **Matching Engine:** Computes weighted Manhattan distance for alignment scores; optional cosine layer for peer or feedback similarity.  
+- **Doppelganger Logic:** Identifies and propagates preferences via similar evaluators, enabling “people-like-you” recommendations.  
+- **Transparency Principle:** All weights, metrics, and schema fields are user-visible and interpretable.  
 
 ---
 
-## Method Overview
-1. Define schema (`scalars`, `tags`, `categoricals`)  
-2. Declare entity traits  
-3. Apply contextual weights  
-4. Filter by inclusion/exclusion  
-5. Compute match score  
-6. Return ranked, explainable results
+## 📘 Citation (APA)
+
+> Fielden, A. T. (2025). *Affinari: A Transparent Trait-Based Alignment and Doppelganger Matching System.*  
+> Zenodo. [https://doi.org/10.5281/zenodo.17297114](https://doi.org/10.5281/zenodo.17297114)
 
 ---
 
-## Doppelganger Logic
-Affinari extends alignment by comparing instance feedback patterns via cosine similarity × positivity weight, enabling group derived, explainable recommendations.
+## 📚 BibTeX Entry
+
+```bibtex
+@report{fielden2025affinari,
+  title        = {Affinari: A Transparent Trait-Based Alignment and Doppelganger Matching System},
+  author       = {Fielden, Andrew T.},
+  year         = 2025,
+  institution  = {Zenodo},
+  doi          = {10.5281/zenodo.17297114},
+  url          = {https://doi.org/10.5281/zenodo.17297114}
+}
+```
 
 ---
 
-## Implementation References
-- `Affinari_Core` — reference Streamlit application  
-- `Affinari_Lite` — offline HTML/JS engine  
-- `Affinari_RFC_0001.md` — formal technical standard  
+## 🧾 License
+This document and all Affinari materials are released under the  
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+© 2025 Andrew T. Fielden — *Affinari: Transparent Alignment for Human-Aligned AI.*
 
 ---
 
-## License
-This work is released under **Creative Commons Attribution 4.0 International (CC-BY-4.0)**.  
-Attribution required:  
-> “Implements or extends the Affinari Method (Fielden, 2025).”
+## 🔗 Related Resources
+- [Affinari Core (Streamlit Engine)](https://github.com/affinari/affinari_core)  
+- [Affinari Lite (Static HTML Engine)](https://github.com/affinari/affinari_lite)  
+- [Defensive Publication DOI 10.5281/zenodo.17297114](https://doi.org/10.5281/zenodo.17297114)
 
 ---
-
-## Citation
-Fielden, Andrew (2025). *The Affinari Method: A Transparent Framework for Contextual Alignment and Matching Across Domains.* Affinari Project, v1.0. DOI: pending.
-
----
-
-## Relationship to Developer README
-This academic edition is **formally written for citation and DOI purposes**, whereas [`README.md`](README.md) provides a **developer-friendly overview** for open-source users and implementers.  
-Both describe the same method; their tone and purpose differ.
