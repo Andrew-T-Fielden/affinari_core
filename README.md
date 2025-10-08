@@ -1,6 +1,8 @@
 # The Affinari Method v1.0
 ### Transparent Alignment Framework for Human-Aligned AI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17297114.svg)](https://doi.org/10.5281/zenodo.17297114)
+
 **Author:** Andrew Fielden  
 **Date:** October 2025  
 **License:** CC-BY-4.0 International  
@@ -58,8 +60,10 @@ Affinari compares them using **weighted Manhattan** or **cosine** similarity, pr
 ## 🧾 Citation
 If you use or extend this work, please cite:
 
-> Fielden, A. (2025). *The Affinari Method: A Transparent Framework for Contextual Alignment and Matching Across Domains.*  
-> Affinari Project, v1.0. DOI: (to be added)
+> Fielden, A. T. (2025). *Affinari: A Transparent Trait-Based Alignment and Doppelganger Matching System.*  
+> Zenodo. [https://doi.org/10.5281/zenodo.17297114](https://doi.org/10.5281/zenodo.17297114)
+
+> © 2025 Andrew T. Fielden — Licensed under [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
