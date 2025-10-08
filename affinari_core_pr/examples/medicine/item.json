@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "instance_id": "treatment_plan_101",
+  "traits": {
+    "symptom_severity": 6.5,
+    "preferred_treatment": "therapy",
+    "allergies": [
+      "penicillin"
+    ]
+  }
+}

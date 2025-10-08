@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "traits": {
+    "cleanliness": {
+      "type": "scalar",
+      "min": 0,
+      "max": 5
+    },
+    "room_type": {
+      "type": "categorical",
+      "values": [
+        "single",
+        "double",
+        "suite"
+      ]
+    },
+    "amenities": {
+      "type": "vector",
+      "values": [
+        "wifi",
+        "parking",
+        "pool"
+      ]
+    }
+  }
+}

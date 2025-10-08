@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "instance_id": "offer_A1",
+  "traits": {
+    "avg_monthly_expenditure": 1000,
+    "credit_score": 700,
+    "payment_preference": "instalment"
+  },
+  "sponsor_weight": 0.05
+}

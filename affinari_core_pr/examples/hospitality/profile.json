@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "instance_id": "traveller-001",
+  "traits": {
+    "cleanliness": 4.7,
+    "room_type": "double",
+    "amenities": [
+      "wifi",
+      "pool"
+    ]
+  }
+}

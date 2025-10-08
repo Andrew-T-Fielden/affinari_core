@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "traits": {
+    "symptom_severity": {
+      "type": "scalar",
+      "min": 0,
+      "max": 10
+    },
+    "preferred_treatment": {
+      "type": "categorical",
+      "values": [
+        "drugA",
+        "drugB",
+        "therapy"
+      ]
+    },
+    "allergies": {
+      "type": "vector",
+      "values": [
+        "penicillin",
+        "aspirin",
+        "latex"
+      ]
+    }
+  }
+}

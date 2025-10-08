@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "traits": {
+    "avg_monthly_expenditure": {
+      "type": "scalar",
+      "min": 0,
+      "max": 10000
+    },
+    "credit_score": {
+      "type": "scalar",
+      "min": 300,
+      "max": 850
+    },
+    "payment_preference": {
+      "type": "categorical",
+      "values": [
+        "instalment",
+        "full",
+        "deferred"
+      ]
+    }
+  }
+}

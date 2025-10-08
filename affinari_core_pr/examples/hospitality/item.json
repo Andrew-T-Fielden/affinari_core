@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "instance_id": "hotel-42",
+  "traits": {
+    "cleanliness": 4.2,
+    "room_type": "double",
+    "amenities": [
+      "wifi",
+      "parking"
+    ]
+  },
+  "sponsor_weight": 0.1
+}
