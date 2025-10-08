@@ -1,0 +1,19 @@
+{
+    "name": "Affinari Method",
+    "version": "1.0",
+    "release_date": "2025-10-08",
+    "author": "Andrew Fielden",
+    "affiliation": "The Affinari Project",
+    "license": "CC-BY-4.0",
+    "doi": "pending",
+    "repository": "https://github.com/affinari/affinari-method-v1.0",
+    "description": "Public definition and formal specification of the Affinari Method, a transparent alignment framework for human-aligned AI.",
+    "keywords": [
+        "alignment",
+        "explainable AI",
+        "schema",
+        "affinari",
+        "contextual matching",
+        "doppelganger logic"
+    ]
+}
